@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>local.grid.download.KerioConnect</string>
+	<string>com.github.gridcad.download.KerioConnect</string>
 	<key>Process</key>
 	<array>
 		<dict>

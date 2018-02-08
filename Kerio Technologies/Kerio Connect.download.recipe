@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Kerio Connect.</string>
 	<key>Identifier</key>
-	<string>local.grid.download.KerioConnect</string>
+	<string>com.github.gridcad.download.KerioConnect</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of STARFACE UCC Client and creates a package.</string>
 	<key>Identifier</key>
-	<string>local.grid.pkg.STARFACEUCCClient</string>
+	<string>com.github.gridcad.pkg.STARFACEUCCClient</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>

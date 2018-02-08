@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of STARFACE UCC Client.</string>
 	<key>Identifier</key>
-	<string>local.grid.download.STARFACEUCCClient</string>
+	<string>com.github.gridcad.download.STARFACEUCCClient</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

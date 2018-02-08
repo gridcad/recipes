@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Kerio Connect and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>local.grid.munki.KerioConnect</string>
+	<string>com.github.gridcad.munki.KerioConnect</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>

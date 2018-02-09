@@ -18,29 +18,30 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+			<string>testing</string>
+			<string>production</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Der STARFACE UCC Client ist mehr als nur eine Software zum Telefonieren. Es ist Ihr neuer Ansatz zu kommunizieren! 
+UCC steht für Unified Communication and Collaboration und der Client hilft Ihnen Ihre Erreichbarkeit zu managen, Laufwege zu vermeiden und produktiver zu arbeiten.</string>
 			<key>developer</key>
 			<string>STARFACE GmbH</string>
 			<key>display_name</key>
 			<string>STARFACE UCC Client</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/sh
+
+# Install HelperFiles
+
+sudo installer -store -pkg /Applications/STARFACE\ UCC\ Client.app/Contents/Resources/HelperFiles.pkg -target /</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
-	<key>postinstall_script</key>
-    	<string>#!/bin/sh
-
-# Install HelperFiles
-
-sudo installer -store -pkg /Applications/STARFACE\ UCC\ Client.app/Contents/Resources/HelperFiles.pkg -target /
-    	</string>
 	<key>ParentRecipe</key>
 	<string>com.github.gridcad.download.STARFACEUCCClient</string>
 	<key>Process</key>

@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of LogiMgr Installer and creates a package.</string>
 	<key>Identifier</key>
-	<string>local.grid.pkg.LogiMgrInstaller</string>
+	<string>com.github.gridcad.pkg.LogiMgrInstaller</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -20,7 +20,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>local.grid.download.LogiMgrInstaller</string>
+	<string>com.github.gridcad.download.LogiMgrInstaller</string>
 	<key>Process</key>
 	<array>
 		<dict>

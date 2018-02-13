@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Enpass.</string>
 	<key>Identifier</key>
-	<string>local.grid.download.Enpass</string>
+	<string>com.github.gridcad.download.Enpass</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
